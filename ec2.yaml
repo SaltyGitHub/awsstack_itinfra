@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Description: 'Simple CloudFormation template for EC2 instance with security group'
 
 Resources:
-  # Security group that allows inbound traffic on ports 80 and 443
+  # Security group that allows inbound traffic on ports 80 and 443 ----
   WebServerSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
